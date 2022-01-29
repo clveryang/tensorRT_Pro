@@ -167,6 +167,9 @@ int app_arcface(){
 
 int app_arcface_video(){
 
+    return 0;
+
+#if 0
     TRT::set_device(0);
     INFO("===================== test arcface fp32 ==================================");
 
@@ -225,6 +228,7 @@ int app_arcface_video(){
     }
     INFO("Done");
     return 0;
+#endif
 }
 
 class MotionFilter{
@@ -269,6 +273,9 @@ private:
 
 int app_arcface_tracker(){
 
+    return 0;
+    
+#if 0
     TRT::set_device(0);
     INFO("===================== test arcface fp32 ==================================");
 
@@ -380,4 +387,5 @@ int app_arcface_tracker(){
     }
     INFO("Done");
     return 0;
+#endif
 }

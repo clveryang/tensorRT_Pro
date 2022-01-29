@@ -40,7 +40,8 @@ library_paths := $(lean_protobuf)/lib \
 			$(lean_cuda)/lib64  \
 			$(lean_cudnn)/lib
 
-link_librarys := opencv_core opencv_imgproc opencv_videoio opencv_imgcodecs \
+# opencv_videoio
+link_librarys := opencv_core opencv_imgproc opencv_imgcodecs \
 			nvinfer nvinfer_plugin \
 			cuda cublas cudart cudnn \
 			stdc++ protobuf dl

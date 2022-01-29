@@ -72,6 +72,9 @@ private:
 
 int app_high_performance(){
 
+    return 0;
+    
+#if 0
     InputNode camera;
     OutputNode output;
     YoloNode yolo;
@@ -114,4 +117,5 @@ int app_high_performance(){
     getchar();
     camera.stop();
     return 0;
+#endif
 }

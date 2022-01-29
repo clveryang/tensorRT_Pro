@@ -44,6 +44,10 @@ static bool compile_models(){
 }
 
 int app_fall_recognize(){
+
+    return 0;
+
+#if 0
     cv::setNumThreads(0);
 
     INFO("===================== test alphapose FP32 ==================================");
@@ -130,4 +134,5 @@ int app_fall_recognize(){
     }
     INFO("Done");
     return 0;
+#endif
 }
